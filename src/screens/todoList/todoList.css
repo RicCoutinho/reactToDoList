@@ -1,0 +1,42 @@
+.listContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.todoContainerCard {
+  margin-bottom: 16px;
+  display: inline-flex;
+  background-color: #0e1d25;
+  color: white;
+  border: 1px solid #0e2f44;
+  border-radius: 2px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.todoCard {
+  padding: 8px 0px 12px 8px;
+  margin-right: 8px;
+  font-family: "Fredoka One", cursive;
+  background-color: #0e1d25;
+  color: white;
+  width: 80%;
+}
+
+button {
+  background-color: #0e1d25;
+  color: white;
+  border: 0;
+}
+
+.editButton {
+  margin-right: 4px;
+}
+
+.editButton:hover {
+  color: #808080;
+}
+
+.deleteButton:hover {
+  color: #f6546a;
+}
